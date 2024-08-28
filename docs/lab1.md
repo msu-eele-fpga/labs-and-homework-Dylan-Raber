@@ -1,1 +1,1 @@
-![HeWo_Screenshot](/assets/helloworld.png)
+![HeWo_Screenshot](/docs/assets/helloworld.png)
