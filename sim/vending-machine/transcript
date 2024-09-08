@@ -1,0 +1,2092 @@
+# Compile of assert_pkg.vhd failed with 31 errors.
+# Compile of print_pkg.vhd failed with 3 errors.
+# Compile of tb_pkg.vhd failed with 1 errors.
+# Compile of vending_machine_tb.vhd failed with 3 errors.
+# 4 compiles, 4 failed with 38 errors.
+# Compile of assert_pkg.vhd was successful.
+# Compile of print_pkg.vhd was successful.
+# Compile of tb_pkg.vhd failed with 1 errors.
+# Compile of vending_machine_tb.vhd failed with 3 errors.
+# 4 compiles, 2 failed with 4 errors.
+# Compile of tb_pkg.vhd was successful.
+# Compile of vending_machine.vhd was successful.
+# Compile of vending_machine_tb.vhd was successful with warnings.
+# Compile of vending_machine.vhd failed with 48 errors.
+# Compile of vending_machine.vhd failed with 18 errors.
+# Compile of vending_machine.vhd failed with 17 errors.
+# Compile of vending_machine.vhd failed with 9 errors.
+# Compile of vending_machine.vhd failed with 10 errors.
+# Compile of vending_machine.vhd was successful.
+vsim work.vending_macine_tb
+# vsim work.vending_macine_tb 
+# Start time: 15:13:26 on Sep 08,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-13) Recompile work.vending_macine_tb(testbench) because work.vending_machine has changed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.print_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.vending_macine_tb(testbench)#1
+add wave sim:/vending_macine_tb/*
+run
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 3451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 3471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 3491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 3511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 3531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 3551 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 4571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 4591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 4611 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 6631 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 8151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 8171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 8231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 8251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 8331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 8351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 8371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 8431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 8451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 8511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 8531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 8951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 8971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 8991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 10971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 10991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 11011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 11031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 11051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 11071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 11091 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 11111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 11131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 11151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 11171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 11191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 11211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 11231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 11251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 11271 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 13031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 13051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 13071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 13091 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 13111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 13131 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 14531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 14551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 14571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 14591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 14611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 14631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 14651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 14671 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 15331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 15351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 15371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 15391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 15411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 15431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 15451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 15471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 15491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 15511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 15531 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 16131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 16151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 16171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 16191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 16211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 16371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 16391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 16411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 16971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 16991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 17011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 17371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 17391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 17411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 17731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 17751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 17831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 17851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 17871 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 18531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 18551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 18631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 18651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 18671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 18691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 18711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 18731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 18751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 18771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 18791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 18811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 18831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 18851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 18871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 18891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 18911 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 23371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 23391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 23411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 23431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 23451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 23471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 23491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 23511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 23531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 23551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 23571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 23591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 23611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 23631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 23651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 23671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 23691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 23711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 5
+#    Time: 23731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 10
+#    Time: 23751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 10
+#    Time: 23771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 23971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 23991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 24011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 24031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 24051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 24071 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 25811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 25831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 25851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 25871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 25891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 25911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 25931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 25951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 25971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 25991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 26011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 26031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 26051 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 27311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 27331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 27351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 27371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 27391 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 28911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 28931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 28951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 28971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 28991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 29211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 29231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 29251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 29371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 29391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 29771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 29791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 29811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 29831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 29851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 29871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 29891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 29911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 29931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 29951 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 30171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 30191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 30211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 30811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 30831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 30851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 30871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 30891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 30911 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 32111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 32131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 32151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 32171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 32191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 32311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 32331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 32351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 32371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 32391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 32411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 32431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 32451 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 33711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 33731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 33751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 33771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 33791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 33911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 33931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 33951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 33971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 33991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 35311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 35331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 35351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 35371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 35391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 35411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 35431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 35511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 35531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 35551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 35611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 35631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 35651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 35771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 35791 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 36571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 36591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 36611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 36631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 36651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 36671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 36691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 36711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 36731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 36751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 36771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 36791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 36811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 36831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 36851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 36871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 36891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 36911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 36931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 36951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 36971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 36991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 37011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 37031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 37111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 37131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 37151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 37171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 37191 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 40231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 40251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 40271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 40291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 40311 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 42171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 42191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 42571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 42591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 42611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 42971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 42991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 43011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 43331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 43351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 43431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 43451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 43471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 43491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 43511 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 44231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 44251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 44271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 44291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 44311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 44331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 44351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 44371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 44391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 44411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 44431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 44451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 44471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 44491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 44511 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 48571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 48591 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 49171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 49191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 49211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 49231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 49251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 49271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 49291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 49311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 5
+#    Time: 49331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 10
+#    Time: 49351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 10
+#    Time: 49371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 49571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 49591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 49611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 49631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 49651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 49671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 49691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 49711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 49731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 49751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 49771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 49791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 49811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 49831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 49851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 49871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 49891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 49911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 49931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 49951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 49971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 49991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 50011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 50031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 50051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 50071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 50091 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 50111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 5
+#    Time: 50131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 10
+#    Time: 50151 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 51391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 51411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 51431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 51451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 51471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 51991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 52011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 52031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 52051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 52071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 52091 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 55191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 55211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 55231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 55251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 55271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 55291 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 57691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 57711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 57731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 57751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 57771 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 58191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 58211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 58231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 58251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 58271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 58391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 58411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 58431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 58451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 58471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 58491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 58551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 58571 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 59351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 59371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 59431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 59451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 59531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 59551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 59571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 59631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 59651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 59691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 59711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 59731 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 60151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 60171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 60191 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 61391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 61411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 61431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 61451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 61471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 61591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 61611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 61631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 61651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 61671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 61691 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 64171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 64191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 64211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 64411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 64511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 64531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 64551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 64571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 64611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 64631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 64651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 64671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 64811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 64831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 64851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 64871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 64891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 64951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 64971 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 65731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 65751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 65771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 65791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 65811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 65831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 65851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 65871 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 66531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 66551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 66571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 66591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 66611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 66631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 66651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 66671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 66691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 66711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 66731 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 67331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 67351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 67371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 67391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 67411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 67431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 67451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 67471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 67591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 67611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 67691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 67711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 67731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 67751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 67771 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 67791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 67811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 67831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 67851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 67871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 67991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 68011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 68031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 68051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 68071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 68091 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 68111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 68131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 68151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 68171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 68191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 68211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 68231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 68251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 68271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 68291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 68311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 68331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 68351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 68371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 68931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 68951 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 69031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 69051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 69071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 69731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 69751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 69831 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 69851 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 69871 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 69891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 69911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 69931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 69951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 69971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 69991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 70031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 70051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 70071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 70091 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 70111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 70511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 70531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 70551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 70571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 70611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 70631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 70651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 70711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70791 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 70811 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70891 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 70911 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 70931 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 70991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 71011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 71031 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 71051 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 71071 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 71191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 71211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 71231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 71251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 71271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 71291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 71311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 71331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 71351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 71371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 71391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 71411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 71431 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 73991 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 74011 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 74091 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 74111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 74131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 74151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 74171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 74191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 74211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 74231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 74251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 74271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 74391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 74411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 74431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 74451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 74471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 74491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 74511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 74531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 74551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 74571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 74591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 5
+#    Time: 74611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 74631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 74651 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 74671 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 74691 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 74711 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 74731 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 5
+#    Time: 74751 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 10
+#    Time: 74771 ns  Iteration: 0  Instance: /vending_macine_tb
+run
+run
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 77111 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 77131 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 77151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 77171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 77191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 77211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 77231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 77251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 77271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 77291 ns  Iteration: 0  Instance: /vending_macine_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 3431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 3451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 3471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 3491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 3511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 3531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 3551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 4571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 4591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 4611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6551 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6571 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6591 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 6611 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 5
+#    Time: 6631 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 8151 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 8171 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8191 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8211 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 15
+#    Time: 8231 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 8251 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8271 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8291 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8311 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 8331 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 0
+#    Time: 8351 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 8371 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8391 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8411 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 8431 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 8451 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8471 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 10
+#    Time: 8491 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 10, expected: 15
+#    Time: 8511 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 0
+#    Time: 8531 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 5, expected: 0
+#    Time: 8951 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 15, expected: 10
+#    Time: 8971 ns  Iteration: 0  Instance: /vending_macine_tb
+# ** Failure: error in test case 'amount is as expected'
+#      actual: 0, expected: 15
+#    Time: 8991 ns  Iteration: 0  Instance: /vending_macine_tb
+quit -sim
+# End time: 15:16:06 on Sep 08,2024, Elapsed time: 0:02:40
+# Errors: 41, Warnings: 2
+# Compile of vending_machine.vhd was successful.
+vsim work.vending_macine_tb
+# vsim work.vending_macine_tb 
+# Start time: 15:24:42 on Sep 08,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13) Recompile work.vending_macine_tb(testbench) because work.vending_machine has changed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.print_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.vending_macine_tb(testbench)#1
+add wave sim:/vending_macine_tb/*
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End of testbench.
+# 1
+# Break in Process stimuli_generator at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/vending-machine/vending_machine_tb.vhd line 72
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run
+# End of testbench.
+# 1
+# Break in Process stimuli_generator at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/vending-machine/vending_machine_tb.vhd line 72
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+.main clear
+run
+# End of testbench.
+# 1
+# Break in Process stimuli_generator at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/vending-machine/vending_machine_tb.vhd line 72
+# Causality operation skipped due to absence of debug database file
+# End time: 15:33:30 on Sep 08,2024, Elapsed time: 0:08:48
+# Errors: 0, Warnings: 2
