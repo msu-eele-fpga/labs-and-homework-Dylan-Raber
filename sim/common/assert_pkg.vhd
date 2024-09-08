@@ -62,6 +62,7 @@ package body assert_pkg is
     procedure assert_that(msg: string; expr: boolean) is begin
         assert expr report "error in test case '" & msg & "'" severity failure;
         if expr then
+		--report "passed in test case '" & msg & "'" severity note;
         end if;
     end;
 

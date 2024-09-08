@@ -1,0 +1,2523 @@
+# Compile of timed_counter_tb.vhd failed with 3 errors.
+# Compile of assert_pkg.vhd was successful.
+# Compile of timed_counter.vhd failed with 1 errors.
+# Compile of tb_pkg.vhd failed with 1 errors.
+# Compile of assert_pkg.vhd was successful.
+# Compile of print_pkg.vhd was successful.
+# Compile of timed_counter_tb.vhd failed with 1 errors.
+# 5 compiles, 3 failed with 3 errors.
+# Compile of tb_pkg.vhd failed with 1 errors.
+# Compile of tb_pkg.vhd was successful.
+# Compile of timed_counter.vhd was successful.
+# Compile of timed_counter_tb.vhd was successful with warnings.
+# Compile of timed_counter.vhd was successful.
+# Compile of timed_counter.vhd failed with 2 errors.
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 16:49:20 on Sep 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+quit -sim
+# End time: 17:01:34 on Sep 07,2024, Elapsed time: 0:12:14
+# Errors: 10, Warnings: 15
+# Compile of timed_counter_tb.vhd failed with 1 errors.
+# Compile of timed_counter_tb.vhd failed with 1 errors.
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 17:05:01 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+quit -sim
+# End time: 17:07:02 on Sep 07,2024, Elapsed time: 0:02:01
+# Errors: 4, Warnings: 4
+# Compile of timed_counter.vhd was successful.
+# Compile of timed_counter.vhd was successful.
+# Compile of tb_pkg.vhd was successful.
+# Compile of assert_pkg.vhd was successful.
+# Compile of print_pkg.vhd was successful.
+# Compile of timed_counter_tb.vhd was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 17:10:49 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+add wave sim:/timed_counter_tb/dut_100ns_counter/*
+quit -sim
+# End time: 17:19:32 on Sep 07,2024, Elapsed time: 0:08:43
+# Errors: 5, Warnings: 3
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 17:21:09 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+quit -sim
+# End time: 17:33:12 on Sep 07,2024, Elapsed time: 0:12:03
+# Errors: 5, Warnings: 2
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 17:34:51 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Fatal: (vsim-3421) Value 1 is out of range 0 to 0.
+#    Time: 10 ns  Iteration: 0  Process: /timed_counter_tb/dut_100ns_counter/counter_process File: C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd Line: 32
+# Fatal error in Process counter_process at C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd 32 Process counter_process
+# 
+restart
+# Compile of timed_counter.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Fatal: (vsim-3421) Value 1 is out of range 0 to 0.
+#    Time: 10 ns  Iteration: 0  Process: /timed_counter_tb/dut_100ns_counter/counter_process File: C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd Line: 32
+# Fatal error in Process counter_process at C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd 32 Process counter_process
+# 
+quit -sim
+# End time: 17:37:29 on Sep 07,2024, Elapsed time: 0:02:38
+# Errors: 1, Warnings: 1
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 17:38:29 on Sep 07,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Fatal: (vsim-3421) Value 1 is out of range 0 to 0.
+#    Time: 10 ns  Iteration: 0  Process: /timed_counter_tb/dut_100ns_counter/counter_process File: C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd Line: 32
+# Fatal error in Process counter_process at C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at C:/Users/dylan/labs-and-homework-Dylan-Raber/hdl/timed_counter/timed_counter.vhd 32 Process counter_process
+# 
+# Compile of timed_counter.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# Compile of timed_counter.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+# Compile of timed_counter_tb.vhd was successful with warnings.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 85
+quit -sim
+vsim work.timed_counter_tb
+# End time: 17:59:21 on Sep 07,2024, Elapsed time: 0:20:52
+# Errors: 5, Warnings: 1
+# vsim work.timed_counter_tb 
+# Start time: 17:59:21 on Sep 07,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 85
+quit -sim
+# End time: 18:05:54 on Sep 07,2024, Elapsed time: 0:06:33
+# Errors: 5, Warnings: 1
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:07:53 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 83
+quit -sim
+# End time: 18:08:14 on Sep 07,2024, Elapsed time: 0:00:21
+# Errors: 4, Warnings: 2
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:11:07 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Note: i=0
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=1
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=2
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=3
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=4
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=5
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 84
+quit -sim
+# End time: 18:14:09 on Sep 07,2024, Elapsed time: 0:03:02
+# Errors: 5, Warnings: 2
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:16:00 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Note: i=0
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=1
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=2
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=3
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=4
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=5
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 85
+quit -sim
+# End time: 18:16:41 on Sep 07,2024, Elapsed time: 0:00:41
+# Errors: 5, Warnings: 2
+# Compile of assert_pkg.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:25:37 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Note: i=0
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=1
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=2
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=3
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=4
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=5
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 85
+quit -sim
+# End time: 18:27:16 on Sep 07,2024, Elapsed time: 0:01:39
+# Errors: 5, Warnings: 2
+# Compile of assert_pkg.vhd was successful.
+clr
+# invalid command name "clr"
+help
+# Type help <command> to get information on that command, or try one of the following:
+#   commands  List all available commands and topics.
+#   Debugging Lists debugging commands.
+#   Execution Information on controlling execution of the simulation.
+#   Tcl       Information on Tcl commands.
+#   Tk        Information on Tk commands.
+#   incrTcl   Information on incrTcl commands.
+# 
+commands
+# invalid command name "commands"
+help commands
+# Help avaliable on the following topics and commands:
+# 	abort	add	add_cmdhelp	add_menu
+# 	add_menucb	add_menuitem	add_menurb	add_separator
+# 	add_submenu	addTime	after	alias
+# 	append	apply_button_adder	array	batch_mode
+# 	bd	bedit	bell	bgerror	binary
+# 	bind	bindtags	body	bp	break
+# 	button	call	canvas	catch	cd
+# 	cdbg	change	change_menu_cmd	check
+# 	checkbutton	checkpoint	class	clipboard
+# 	clock	close	code	concat	config
+# 	configure	cont	context	continue	dde
+# 	Debugging	delete	describe	destroy	disable_menu
+# 	disable_menuitem	disablebp	divTime	do
+# 	down	drivers	dumplog64	echo	edit
+# 	elite_edition	enable_menu	enable_menuitem
+# 	enablebp	encoding	ensemble	entry	env
+# 	environment	environment_nosource	eof
+# 	eqTime	error	eval	event	exa
+# 	examine	exec	execution	exit	expr
+# 	fblocked	fconfigure	fcopy	file	fileevent
+# 	find	findExec	flush	focus	font
+# 	for	force	foreach	format	formatTime
+# 	frame	get_menu_path	getactivecursortime
+# 	getactivemarkertime	gets	ginfo	glob
+# 	global	grab	grid	gteTime	gtTime
+# 	help	history	http	if	image
+# 	incr	incrTcl	info	int64ToReal
+# 	int64ToStr	interp	intToTime	jobspy	join
+# 	label	lappend	layout	lecho	left
+# 	lindex	linsert	list	listbox	llength
+# 	load	local	log	lower	lrange
+# 	lremove	lreplace	lsearch	lset	lshift
+# 	lsort	lsublist	lteTime	ltTime	luniq
+# 	max	menu	menubutton	message	msgcat
+# 	mulTime	namespace	namespaceOf	neqTime
+# 	next	noforce	nolog	notepad	notrace
+# 	noview	nowhen	onbreak	onElabError
+# 	onerror	onfinish	open	openlog	option
+# 	pack	package	panedwindow	parray
+# 	pathOf	pause	pedit	personal_edition
+# 	pid	place	pop	precision	PrefSource
+# 	PrefSource(geometry)	PrefSource(HDLFileTypes)	PrefSource(HighlightErrorColor)
+# 	PrefSource(highlightExecutableLines)	PrefSource(tabs)	PrefSource(user_hook)
+# 	PrefSource(verilogFileTypes)	PrefSource(vhdlFileTypes)	PrefSource(WarnSourceChanged)
+# 	printenv	proc	project	property	push
+# 	puterr	puts	pwd	qhdel	qhdir
+# 	qhlib	questasim	quietly	quit	qverilog
+# 	qvhcom	qvlcom	radiobutton	radix
+# 	raise	read	readers	RealToTime	regexp
+# 	registry	regsub	rename	renamelog	report
+# 	restart	restore	resume	return	right
+# 	rincr	run	runStatus	sbrk	scale
+# 	scaleTime	scan	sccom	scgenmod	scope
+# 	scrollbar	sdfcom	search	searchlog	see
+# 	seek	seetime	selection	send	set
+# 	setenv	shift	show	simNamespaceIsOpen
+# 	simstats	simstatslist	simtime	slave_mode
+# 	socket	source	spinbox	split	status
+# 	step	stop	string	subst	subTime
+# 	suppress	switch	tabset	tb	tcheck_set
+# 	tcheck_status	Tcl	tcl_endOfWord
+# 	tcl_findLibrary	tcl_startOfNextWord	tcl_startOfPreviousWord
+# 	tcl_wordBreakAfter	tcl_wordBreakBefore	tell
+# 	text	time	tix	Tk	tk
+# 	tk_chooseColor	tk_chooseDirectory	tk_dialog
+# 	tk_getOpenFile	tk_getSaveFile	tk_menuSetFocus
+# 	tk_messageBox	tk_popup	tk_textCopy
+# 	tk_textCut	tk_textPaste	tkwait	toggle
+# 	toplevel	trace	transcribe	transcript	truncate
+# 	tssi2mti	typespec	ui_VVMode	unknown	unset
+# 	unsetenv	up	update	uplevel	upvar
+# 	usual	validTime	variable	vcd	vcd2wlf
+# 	vcom	vdbg	vdel	vdir	vencrypt
+# 	verror	vgencomp	vhencrypt	view	virtual
+# 	vlib	vlog	vmake	vmap	vopt
+# 	vsim	vsim_break	vsimAuth	vsimDate	vsimId
+# 	vsimVersion	vsimVersionString	vsource
+# 	vwait	when	where	while	winfo
+# 	wlf2log	wlf2vcd	wlfman	wlfrecover	wm
+# 	write	xml2ucdb	zdebugging
+# 
+cls
+# 
+.main clear
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:43:22 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Note: i=0
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=1
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=2
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=3
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=4
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=5
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 85
+quit -sim
+# End time: 18:47:16 on Sep 07,2024, Elapsed time: 0:03:54
+# Errors: 5, Warnings: 3
+# Compile of assert_pkg.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:54:30 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Note: i=0
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=1
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=2
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=3
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=4
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: i=5
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 85
+quit -sim
+# End time: 18:55:26 on Sep 07,2024, Elapsed time: 0:00:56
+# Errors: 5, Warnings: 2
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 18:56:57 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 84
+quit -sim
+# End time: 19:06:52 on Sep 07,2024, Elapsed time: 0:09:55
+# Errors: 5, Warnings: 2
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:16:21 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+quit -sim
+# End time: 19:17:30 on Sep 07,2024, Elapsed time: 0:01:09
+# Errors: 33, Warnings: 2
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:19:55 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+run
+run
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+run
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+.main clear
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 19:24:33 on Sep 07,2024, Elapsed time: 0:04:38
+# Errors: 42, Warnings: 1
+# Compile of timed_counter.vhd was successful.
+# Load canceled
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:28:41 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+add wave sim:/timed_counter_tb/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 19:32:20 on Sep 07,2024, Elapsed time: 0:03:39
+# Errors: 42, Warnings: 1
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:33:54 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Note: passed in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Note: passed in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 19:36:38 on Sep 07,2024, Elapsed time: 0:02:44
+# Errors: 6, Warnings: 2
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:38:05 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 19:41:14 on Sep 07,2024, Elapsed time: 0:03:09
+# Errors: 42, Warnings: 2
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:42:42 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 19:43:45 on Sep 07,2024, Elapsed time: 0:01:03
+# Errors: 42, Warnings: 2
+.main clear
+# Compile of timed_counter.vhd failed with 2 errors.
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:47:49 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 19:52:23 on Sep 07,2024, Elapsed time: 0:04:34
+# Errors: 30, Warnings: 3
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 19:55:22 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Failure: error in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Failure: error in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Failure: error in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 20:00:30 on Sep 07,2024, Elapsed time: 0:05:08
+# Errors: 30, Warnings: 2
+# Compile of timed_counter.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 20:01:53 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# ** Note: passed in test case 'counter not done'
+#    Time: 31 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 51 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 71 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 91 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 111 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 131 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: disabled
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 171 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 191 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 211 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 231 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 251 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 271 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 291 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 311 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 331 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 351 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 371 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not enabled'
+#    Time: 391 ns  Iteration: 0  Instance: /timed_counter_tb
+# testing 100 ns timer: enabled for 5 clock periods
+# ** Note: passed in test case 'counter not done'
+#    Time: 431 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 451 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 471 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 491 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 511 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 531 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 551 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 571 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 591 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 611 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 631 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 651 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 671 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 691 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 711 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 731 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 751 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 771 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 791 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 811 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 831 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 851 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 871 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 891 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 911 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 931 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 951 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 971 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter not done'
+#    Time: 991 ns  Iteration: 0  Instance: /timed_counter_tb
+# ** Note: passed in test case 'counter is done'
+#    Time: 1011 ns  Iteration: 0  Instance: /timed_counter_tb
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+# Break key hit
+quit -sim
+# End time: 20:02:33 on Sep 07,2024, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2
+# Compile of assert_pkg.vhd was successful.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 20:04:04 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# testing 100 ns timer: disabled
+# testing 100 ns timer: enabled for 5 clock periods
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 114
+quit -sim
+# End time: 20:04:38 on Sep 07,2024, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 2
+# Compile of timed_counter_tb.vhd was successful with warnings.
+vsim work.timed_counter_tb
+# vsim work.timed_counter_tb 
+# Start time: 20:22:12 on Sep 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.print_pkg(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.float_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading ieee.float_pkg
+# Loading work.assert_pkg(body)
+# Loading work.tb_pkg(body)
+# Loading std.env(body)
+# Loading work.timed_counter_tb(testbench)#1
+# Loading work.timed_counter(timed_counter_arch)#1
+# Loading work.timed_counter(timed_counter_arch)#2
+add wave sim:/timed_counter_tb/*
+run
+# testing 100 ns timer: enabled
+# testing 100 ns timer: disabled
+# testing 100 ns timer: enabled for 5 clock periods
+# testing 220 ns timer: enabled
+# testing 220 ns timer: disabled
+# testing 220 ns timer: enabled for 5 clock periods
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# testing 100 ns timer: disabled
+# testing 100 ns timer: enabled for 5 clock periods
+# testing 220 ns timer: enabled
+# testing 220 ns timer: disabled
+# testing 220 ns timer: enabled for 5 clock periods
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# testing 100 ns timer: disabled
+# testing 100 ns timer: enabled for 5 clock periods
+# testing 220 ns timer: enabled
+# testing 220 ns timer: disabled
+# testing 220 ns timer: enabled for 5 clock periods
+run
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 175
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# testing 100 ns timer: disabled
+# testing 100 ns timer: enabled for 5 clock periods
+# testing 220 ns timer: enabled
+# testing 220 ns timer: disabled
+# testing 220 ns timer: enabled for 5 clock periods
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 175
+# Causality operation skipped due to absence of debug database file
+.MAIN CLEAR
+# invalid command name ".MAIN"
+.main clear
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# testing 100 ns timer: enabled
+# testing 100 ns timer: disabled
+# testing 100 ns timer: enabled for 5 clock periods
+# testing 220 ns timer: enabled
+# testing 220 ns timer: disabled
+# testing 220 ns timer: enabled for 5 clock periods
+# 1
+# Break in Process stimuli_and_checker at C:/Users/dylan/labs-and-homework-Dylan-Raber/sim/timed_counter/timed_counter_tb.vhd line 175
+# End time: 20:29:51 on Sep 07,2024, Elapsed time: 0:07:39
+# Errors: 0, Warnings: 1
