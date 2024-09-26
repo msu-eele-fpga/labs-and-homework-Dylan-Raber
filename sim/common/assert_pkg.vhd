@@ -10,6 +10,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.float_pkg.all;
+library work;
+use work.Common_pkg.all;
 
 -- Routines to help write testbenches at a higher level of abstraction
 package assert_pkg is
