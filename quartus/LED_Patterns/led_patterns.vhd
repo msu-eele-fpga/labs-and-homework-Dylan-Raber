@@ -57,6 +57,7 @@ component clk_gen is
     clk		 	: in std_ulogic;
     bp_timer		: in unsigned(35 downto 0);
     rst			: in std_ulogic;
+	 clk_32_out	: out std_ulogic;
     clk_out		: out std_ulogic
   );
 end component clk_gen;
@@ -89,6 +90,8 @@ signal start_trans : std_ulogic;
 signal patterns : std_ulogic_vector(4 downto 0);
 signal led_from_pb	: std_ulogic_vector(6 downto 0);
 signal pulse	: std_ulogic;
+signal clk_div_cnt	: integer range 0 to 31;
+signal clk_div_32	: std_ulogic;
 
 begin
 
@@ -98,10 +101,11 @@ begin
 
   pm_cg : component clk_gen
     port map (
-      clk   	=> clk,
-      bp_timer	=> bp_timer,
-      rst   	=> rst,
-      clk_out	=> clk_div
+      clk   		=> clk,
+      bp_timer		=> bp_timer,
+      rst   		=> rst,
+		clk_32_out 	=> clk_div_32,
+      clk_out		=> clk_div
     );
 	  
   led(7) <= clk_div;
@@ -135,7 +139,7 @@ begin
 
   pm_pb : component pattern_behavior
     port map (
-      clk   	=> clk_div,
+      clk   	=> clk_div_32,
       rst   	=> rst,
       patterns	=> patterns,
       led	=> led_from_pb
