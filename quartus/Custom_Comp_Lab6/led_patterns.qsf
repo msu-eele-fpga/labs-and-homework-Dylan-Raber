@@ -872,6 +872,7 @@ set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|hps_0|hps_io|border|hps_s
 set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL_CLOCKS ON -to u0|hps_0|hps_io|border|hps_sdram_inst
 set_instance_assignment -name PLL_COMPENSATION_MODE DIRECT -to u0|hps_0|hps_io|border|hps_sdram_inst|pll0|fbout
 set_global_assignment -name QIP_FILE soc_system/synthesis/soc_system.qip
+set_global_assignment -name VHDL_FILE ../../hdl/Custom_Comp_lab6/led_patterns_avalon.vhd -hdl_version VHDL_2008
 set_global_assignment -name VHDL_FILE one_pulse.vhd
 set_global_assignment -name VHDL_FILE timed_counter.vhd -hdl_version VHDL_2008
 set_global_assignment -name VHDL_FILE synchronizer.vhd -hdl_version VHDL_2008
@@ -884,5 +885,5 @@ set_global_assignment -name VHDL_FILE Common_pkg.vhd -hdl_version VHDL_2008
 set_global_assignment -name VHDL_FILE clk_gen.vhd -hdl_version VHDL_2008
 set_global_assignment -name VHDL_FILE async_conditioner.vhd -hdl_version VHDL_2008
 set_global_assignment -name SIGNALTAP_FILE stp1.stp
-set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
