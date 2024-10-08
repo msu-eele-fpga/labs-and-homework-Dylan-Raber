@@ -278,7 +278,7 @@ signal led_sig		: std_logic_vector(7 downto 0);
 begin
 
   push_button <= not push_button_n(0);
-  rst	<= not arduino_reset_n;
+  rst	<= not push_button_n(1);
   led_sig <= led;
   
 	u0 : component soc_system

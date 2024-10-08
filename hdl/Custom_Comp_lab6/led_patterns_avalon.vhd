@@ -37,12 +37,15 @@ component led_patterns is
   );
 end component led_patterns;
 
-signal hps_led_control_sig : boolean := false;
-signal hps_led_control_sig_std : std_ulogic;
-signal base_period_sig : unsigned(7 downto 0) := "00010000";
-signal led_reg_sig : std_ulogic_vector(7 downto 0) := "00000000";
+signal hps_led_control_sig 		: boolean := false;
+signal hps_led_control_sig_std 	: std_ulogic_vector(31 downto 0) := "00000000000000000000000000000000";
+signal base_period_sig 				: std_ulogic_vector(31 downto 0)	:= "00000000000000000000000000010000";
+signal led_reg_sig 					: std_ulogic_vector(31 downto 0) := "00000000000000000000000000000000";
+
 
 begin
+
+  
 
   pm_lp : component led_patterns
   port map (
@@ -51,14 +54,14 @@ begin
 	push_button	=> push_button,
 	switches	=> switches,
 	hps_led_control	=> hps_led_control_sig,
-	base_period	=> base_period_sig,
-	led_reg		=> led_reg_sig,
+	base_period	=> unsigned(base_period_sig(7 downto 0)),
+	led_reg		=> led_reg_sig(7 downto 0),
 	led		=> led
   );
 
   hps_std_converter : process(clk)
   begin
-    if hps_led_control_sig_std = '1' then 
+    if hps_led_control_sig_std(0) = '1' then 
 	   hps_led_control_sig <= true;
 	 else
 	   hps_led_control_sig <= false;
@@ -67,29 +70,37 @@ begin
   
   
 
+  -- for read: 
+  -- 		hps_led_control_sig_std = unused (31 downto 1) + hps_led_control(0)
+  --		base_period_sig = unused(31 downto 8) + base_period(7 downto 0)
+  --		led_reg_sig = unused(31 downto 8) + led_reg(7 downto 0)
   avalon_register_read : process(clk)
   begin
     if rising_edge(clk) and avs_read = '1' then
 	   case avs_address is
-		  when "00"	=> avs_readdata <= ("0000000000000000000000000000000" & hps_led_control_sig_std);
-		  when "01"	=> avs_readdata <= ("000000000000000000000000" & std_logic_vector(base_period_sig));
-		  when "10" => avs_readdata <= ("000000000000000000000000" & std_logic_vector(led_reg_sig));
+		  when "00"	=> avs_readdata <= std_logic_vector(hps_led_control_sig_std);
+		  when "01"	=> avs_readdata <= std_logic_vector(base_period_sig);
+		  when "10" => avs_readdata <= std_logic_vector(led_reg_sig);
 		  when others => null;
 		end case;
 	 end if;
   end process;
   
+  -- for write: 
+  -- 		hps_led_control_sig_std = unused (31 downto 1) + hps_led_control(0)
+  --		base_period_sig = unused(31 downto 8) + base_period(7 downto 0)
+  --		led_reg_sig = unused(31 downto 8) + led_reg(7 downto 0)
   avalon_register_write : process(clk)
   begin
     if rst = '1' then
-	   hps_led_control_sig_std <= '0';
-		base_period_sig <= "00010000";
-		led_reg_sig <= "00000000";
+	   hps_led_control_sig_std <= "00000000000000000000000000000000";
+		base_period_sig 			<= "00000000000000000000000001110000";
+		led_reg_sig 				<= "00000000000000000000000000000000";
 	 elsif rising_edge(clk) and avs_write = '1' then
 	   case avs_address is
-		  when "00" => hps_led_control_sig_std <= avs_writedata(0);
-		  when "01" => base_period_sig <= unsigned(avs_writedata(7 downto 0));
-		  when "10" => led_reg_sig <= std_ulogic_vector(avs_writedata(7 downto 0));
+		  when "00" => hps_led_control_sig_std <= std_ulogic_vector(avs_writedata);
+		  when "01" => base_period_sig <= std_ulogic_vector(avs_writedata);
+		  when "10" => led_reg_sig <= std_ulogic_vector(avs_writedata);
 		  when others => null;
 		end case;
     end if;
