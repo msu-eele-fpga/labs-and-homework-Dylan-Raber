@@ -40,9 +40,11 @@ Here is a table showing the registers along with their respective addresses in m
 **Question**: How did you connect these registers to the ARM CPUs in the HPS?
 
 **Answer**: The registers were connected to the ARM CPUs via Platform Designer's Connections section in the System Contents menu, which can be seen in the following screengrab:
+
 ![lab6_arm_connect](assets/lab6_arm_cpu_connections.png)
 
 **Question**: What is the base address of your component in your Platform Designer system
 
 **Answer**: The base address for my component in my Platformer Designer System is 0x0000_0000, which can be seen in the following screengrab:
+
 ![lab6_component_address](assets/lab6_component_address.png)
