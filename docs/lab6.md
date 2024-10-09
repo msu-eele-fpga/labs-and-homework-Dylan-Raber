@@ -43,7 +43,7 @@ Here is a table showing the registers along with their respective addresses in m
 
 ![lab6_arm_connect](assets/lab6_arm_cpu_connections.png)
 
-**Question**: What is the base address of your component in your Platform Designer system
+**Question**: What is the base address of your component in your Platform Designer system?
 
 **Answer**: The base address for my component in my Platformer Designer System is 0x0000_0000, which can be seen in the following screengrab:
 
