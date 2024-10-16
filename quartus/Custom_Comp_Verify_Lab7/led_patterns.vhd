@@ -108,7 +108,6 @@ begin
       clk_out		=> clk_div
     );
 	  
-  led(7) <= clk_div;
   
   pm_op : component one_pulse
     port map (
@@ -150,20 +149,26 @@ begin
 
   begin
 
-  if rst = '1' then
-    CNT_int <= 0;
-  elsif rising_edge(clk) and sync_push_button = '1' and trans_done = '1' then 
-	   trans_done <= '0';
-  elsif rising_edge(clk) and trans_done = '0' then
-    led(6 downto 0) <= "000" & switches;
-      if CNT_int = 50000000 then
-	     CNT_int <= 0;
-	     trans_done <= '1';
-      else
-	     CNT_int <= CNT_int + 1;
-      end if;
-  elsif rising_edge(clk) and trans_done = '1' then
-    led(6 downto 0) <= led_from_pb;
+  if hps_led_control then
+    trans_done <= '1';
+    led <= led_reg;
+  else
+	  if rst = '1' then
+		 CNT_int <= 0;
+	  elsif rising_edge(clk) and sync_push_button = '1' and trans_done = '1' then 
+			trans_done <= '0';
+	  elsif rising_edge(clk) and trans_done = '0' then
+		 led(6 downto 0) <= "000" & switches;
+			if CNT_int = 50000000 then
+			  CNT_int <= 0;
+			  trans_done <= '1';
+			else
+			  CNT_int <= CNT_int + 1;
+			end if;
+	  elsif rising_edge(clk) and trans_done = '1' then
+		 led(6 downto 0) <= led_from_pb;
+	  end if;
+	  led(7) <= clk_div;
   end if;
 
   end process;
@@ -183,6 +188,9 @@ begin
 	     patterns <= "01000";
 	 elsif cstate = State4 then
 	     patterns <= "10000";
+	 elsif cstate = HPS_Control then
+	 -- controlled by hps
+		  patterns <= "11111";
     end if;
   else
     patterns <= "00000";

@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEBA6U23) Path("C:/Users/dylan/labs-and-homework-Dylan-Raber/quartus/Custom_Comp_Lab6/") File("led_patterns.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEBA6U23) Path("C:/Users/dylan/labs-and-homework-Dylan-Raber/quartus/Custom_Comp_Verify_Lab7/") File("led_patterns.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

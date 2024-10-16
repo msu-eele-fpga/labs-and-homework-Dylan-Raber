@@ -26,7 +26,8 @@ begin
   state_logic : process(clk,rst)
   begin
     if (hps_led_control) then
-      -- controlled by arm hps (not important for lab4)
+      -- controlled by arm hps (HPS_Control)
+		current_state <= HPS_Control;
     else
       -- controlled by state machine 
       if rst = '1' then
@@ -92,7 +93,19 @@ begin
 		    current_state <= State4;
 		  end if;
 		  
-		  --current_state <= State4;
+		  if (current_state = HPS_Control and switches = "0000") then
+		    current_state <= State0;
+		  elsif (current_state = HPS_Control and switches = "0001") then
+		    current_state <= State1;
+		  elsif (current_state = HPS_Control and switches = "0010") then
+		    current_state <= State2;
+		  elsif (current_state = HPS_Control and switches = "0011") then
+		    current_state <= State3;
+		  elsif (current_state = HPS_Control and switches = "0100") then
+		    current_state <= State4;
+		  elsif (current_state = HPS_Control and switches > "0100") then
+		    current_state <= State0;
+		  end if;
       end if;
     end if;
   end process;

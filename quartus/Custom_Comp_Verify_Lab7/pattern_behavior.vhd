@@ -95,8 +95,8 @@ begin
 	       bp_count_pat5 <= bp_count_pat5 + 1;
 	     end if;
 	     led <= start_pat5_led;
-      else
-	     led <= "0110110";
+      elsif patterns = "11111" then
+		  -- leds controlled by arm hps system
       end if;
     end if;
   end process;
