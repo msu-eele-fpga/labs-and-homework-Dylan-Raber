@@ -37,15 +37,22 @@ component led_patterns is
   );
 end component led_patterns;
 
-signal hps_led_control_sig 		: boolean := false;
+signal hps_led_control_sig 		: boolean := true;
 signal hps_led_control_sig_std 	: std_ulogic_vector(31 downto 0) := "00000000000000000000000000000000";
-signal base_period_sig 				: std_ulogic_vector(31 downto 0)	:= "00000000000000000000000000010000";
+signal base_period_sig 				: std_ulogic_vector(31 downto 0)	:= "00000000000000000000000001110000";
 signal led_reg_sig 					: std_ulogic_vector(31 downto 0) := "00000000000000000000000000000000";
 
 
 begin
 
-  
+  hps_std_converter : process(clk)
+  begin
+    if hps_led_control_sig_std(0) = '1' then 
+	   hps_led_control_sig <= true;
+	 elsif hps_led_control_sig_std(0) = '0' then
+	   hps_led_control_sig <= false;
+	 end if;
+  end process;
 
   pm_lp : component led_patterns
   port map (
@@ -53,22 +60,12 @@ begin
 	rst		=> rst,
 	push_button	=> push_button,
 	switches	=> switches,
+	-- change true back to hps_led_control_sig
 	hps_led_control	=> hps_led_control_sig,
 	base_period	=> unsigned(base_period_sig(7 downto 0)),
 	led_reg		=> led_reg_sig(7 downto 0),
 	led		=> led
   );
-
-  hps_std_converter : process(clk)
-  begin
-    if hps_led_control_sig_std(0) = '1' then 
-	   hps_led_control_sig <= true;
-	 else
-	   hps_led_control_sig <= false;
-	 end if;
-  end process;
-  
-  
 
   -- for read: 
   -- 		hps_led_control_sig_std = unused (31 downto 1) + hps_led_control(0)
