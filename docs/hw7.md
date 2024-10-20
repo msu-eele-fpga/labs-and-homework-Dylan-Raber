@@ -33,7 +33,7 @@ This homework assignment was made to give us some practice with Linux CLI tools 
 1. `tail -n 2 gibberish.txt`
 2. ![P1](assets/linux_cli_practice/problem10.png)
 ### Problem 11:
-1. `tail -q gibberish.txt`
+1. `tail -q log.csv`
 2. ![P1](assets/linux_cli_practice/problem11.png)
 ### Problem 12:
 1. `grep 'and' gibberish.txt`
