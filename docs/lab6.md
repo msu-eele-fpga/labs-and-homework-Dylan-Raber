@@ -31,9 +31,9 @@ Here is a table showing the registers along with their respective addresses in m
 
 | Register    | Address |
 | -------- | ------- |
-| led_reg  | 0xFF200000    |
+| hps  | 0xFF200000    |
 | base_period | 0xFF200004     |
-| hps    | 0xFF200008    |
+| led_reg    | 0xFF200008    |
 
 ## Platform Designer
 
