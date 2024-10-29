@@ -25,7 +25,7 @@ Each bracket contains a subcommand and their parameters - their uses are listed 
 
 `pattern3 time3`
 
-etc. 
+(Pattern1 space timing1, linebreak, pattern2 space timing2, linebreak, etc)
 
 ### Usage Examples
 Some examples of valid and invalid terminal commands are as follows:
