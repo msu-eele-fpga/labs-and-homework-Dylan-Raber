@@ -11,12 +11,16 @@ Each bracket contains a subcommand and their parameters - their uses are listed 
 -h = Shows a help message in the terminal listing the command format and what the subcommands do. Only use by itself.
 -v = Displays the LED Patterns and the time it's being displayed on the terminal (in real time). Only use if -p or -f are also in the command, make sure to list -v before them as well.
 -p = allows the user to input arguments manually for displaying patterns and their respective timings, will loop until Ctrl+C is pressed. Do not use in conjunction with -f.
-- Example: -p 0xFF 2000 0x00 1000 would display the hex code 0xFF (so 11111111) on the LEDs for 2000 milliseconds (2 seconds)
+- Example: -p 0xFF 2000 0x00 1000 would display the hex code 0xFF (so 11111111) on the LEDs for 2000 milliseconds (2 seconds) 
+
 -f = allows the user to input a text file that will be read for LED patterns and their timings. Do not use in conjunction with -p. 
     Note: the text file must be in the following format: 
 `pattern1 time1`
+
 `pattern2 time2`
+
 `pattern3 time3`
+
 etc. 
 
 ### Usage Examples
