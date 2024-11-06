@@ -16,5 +16,5 @@ void cleanup_function(void) {
 module_init(init_function)
 module_exit(cleanup_function)
 
-MODULE_AUTHOR("Dylan Raber <dylan.raber02@gmail.com");
+MODULE_AUTHOR("Dylan Raber <dylan.raber02@gmail.com>");
 MODULE_LICENSE ("GPL");
