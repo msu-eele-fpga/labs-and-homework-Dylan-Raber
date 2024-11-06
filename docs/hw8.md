@@ -17,7 +17,7 @@ In this assignment, we learned about Linux kernel modules and how they are compi
 
 #### Modinfo Result
 
-[VM_modinfo](assets/vm_linux_modinfo_hw.png)
+![VM_modinfo](assets/vm_linux_modinfo_hw.png)
 
 ### SOC Section
 
