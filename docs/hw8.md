@@ -31,5 +31,5 @@ In this assignment, we learned about Linux kernel modules and how they are compi
 
 #### Modinfo Result
 
-[SOC_modinfo](assets/soc_linux_modinfo_hw.png)
+![SOC_modinfo](assets/soc_linux_modinfo_hw.png)
 
