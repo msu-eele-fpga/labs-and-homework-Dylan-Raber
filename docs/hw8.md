@@ -1,7 +1,7 @@
 # Homework 8: "Hello World" Linux Kernel Module
 
 ## Overview
-In this assignment, we...
+In this assignment, we learned about Linux kernel modules and how they are compiled. We created a custom "Hello World" kernel module and compiled it on the Ubuntu VM as well as the SOC via the ARM Processor (and PUTTY).
 
 ## Deliverables
 
