@@ -826,20 +826,19 @@ set_instance_assignment -name PLL_COMPENSATION_MODE DIRECT -to u0|hps_0|hps_io|b
 set_global_assignment -name ALLOW_REGISTER_MERGING OFF
 set_global_assignment -name PROJECT_IP_REGENERATION_POLICY ALWAYS_REGENERATE_IP
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VHDL_FILE timed_counter.vhd
+set_global_assignment -name VHDL_FILE synchronizer.vhd
+set_global_assignment -name VHDL_FILE rgb_Controller_avalon.vhd
+set_global_assignment -name VHDL_FILE rgb_Controller.vhd
 set_global_assignment -name VHDL_FILE pwm_controller.vhd
+set_global_assignment -name VHDL_FILE pattern_SM.vhd
+set_global_assignment -name VHDL_FILE pattern_behavior.vhd
+set_global_assignment -name VHDL_FILE one_pulse.vhd
+set_global_assignment -name VHDL_FILE led_patterns_avalon.vhd
+set_global_assignment -name VHDL_FILE led_patterns.vhd
+set_global_assignment -name VHDL_FILE debouncer.vhd
+set_global_assignment -name VHDL_FILE Common_pkg.vhd
+set_global_assignment -name VHDL_FILE clk_gen.vhd
+set_global_assignment -name VHDL_FILE async_conditioner.vhd
 set_global_assignment -name QIP_FILE soc_system/synthesis/soc_system.qip
 set_global_assignment -name VHDL_FILE ../../hdl/Custom_Comp_lab6/led_patterns_avalon.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE one_pulse.vhd
-set_global_assignment -name VHDL_FILE timed_counter.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE synchronizer.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE pattern_SM.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE pattern_behavior.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE led_patterns.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE debouncer.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE de10nano_top.vhd
-set_global_assignment -name VHDL_FILE Common_pkg.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE clk_gen.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE async_conditioner.vhd -hdl_version VHDL_2008
-set_global_assignment -name SIGNALTAP_FILE stp1.stp
-set_global_assignment -name VHDL_FILE rgb_Controller.vhd -hdl_version VHDL_2008
-set_global_assignment -name VHDL_FILE rgb_Controller_avalon.vhd -hdl_version VHDL_2008
