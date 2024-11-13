@@ -41,10 +41,10 @@ component rgb_Controller is
   );
 end component rgb_Controller;
 
-signal period_sig 		: std_logic_vector(31 downto 0) := "00000000000000000000000000000000";
-signal duty_cycle_R_sig 	: std_logic_vector(31 downto 0) := "00000000000000000000000000000000";
-signal duty_cycle_G_sig 	: std_logic_vector(31 downto 0) := "00000000000000000000000000000000";
-signal duty_cycle_B_sig 	: std_logic_vector(31 downto 0) := "00000000000000000000000000000000";
+signal period_sig 		: std_logic_vector(31 downto 0) :=    "00000000000000000000100000000000";
+signal duty_cycle_R_sig 	: std_logic_vector(31 downto 0) := "00000000000000000000001000000000";
+signal duty_cycle_G_sig 	: std_logic_vector(31 downto 0) := "00000000000000000000001100000000";
+signal duty_cycle_B_sig 	: std_logic_vector(31 downto 0) := "00000000000000000000001110000000";
 
 begin
 
@@ -85,10 +85,10 @@ begin
   avalon_register_write : process(clk)
   begin
     if rst = '1' then
-	   period_sig 			<= "00000000000000000000000000000000";
-		duty_cycle_R_sig 	<= "00000000000000000000000000000000";
-		duty_cycle_G_sig 	<= "00000000000000000000000000000000";
-		duty_cycle_B_sig 	<= "00000000000000000000000000000000";
+	   period_sig 			<= "00000000000000000000100000000000";
+		duty_cycle_R_sig 	<= "00000000000000000000010000000000";
+		duty_cycle_G_sig 	<= "00000000000000000000011000000000";
+		duty_cycle_B_sig 	<= "00000000000000000000011100000000";
 	 elsif rising_edge(clk) and avs_write = '1' then
 	   case avs_address is
 		  when "00" => period_sig <= avs_writedata;

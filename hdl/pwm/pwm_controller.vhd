@@ -6,7 +6,7 @@ use std.standard.all;
 entity pwm_controller is
   generic (
     -- CLK_PERIOD_NS = period in ns (ex: CLK_PERIOD_NS = 1000000 -> CLK_PERIOD = 1 ms)
-    CLK_PERIOD_NS 	: integer := 20000; -- in ns
+    CLK_PERIOD_NS 	: integer := 20; -- in ns
     W_PERIOD		: integer := 12;
     F_PERIOD		: integer := 6;
     W_DUTY_CYCLE	: integer := 10;
@@ -36,7 +36,7 @@ architecture pwm_controller_arch of pwm_controller is
 
 signal period_in_time_int : integer := 50 * 1000000;
 signal clk_cnt_max : unsigned(31 downto 0) := to_unsigned(50,32);
-signal clk_cnt : unsigned(W_PERIOD-1 downto 0) := (others => '0');
+signal clk_cnt : unsigned(31 downto 0) := (others => '0');
 signal duty_cycle_max : unsigned(31 downto 0) := (others => '0');
 
 begin
@@ -55,6 +55,7 @@ begin
     clk_cnt <= (others => '0');
     output <= '0';
   else
+   
     if clk_cnt < duty_cycle_max then
       output <= '1';
     else 

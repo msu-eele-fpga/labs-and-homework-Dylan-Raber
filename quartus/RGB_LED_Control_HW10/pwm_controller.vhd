@@ -36,7 +36,7 @@ architecture pwm_controller_arch of pwm_controller is
 
 signal period_in_time_int : integer := 50 * 1000000;
 signal clk_cnt_max : unsigned(31 downto 0) := to_unsigned(50,32);
-signal clk_cnt : unsigned(W_PERIOD-1 downto 0) := (others => '0');
+signal clk_cnt : unsigned(31 downto 0) := (others => '0');
 signal duty_cycle_max : unsigned(31 downto 0) := (others => '0');
 
 begin
