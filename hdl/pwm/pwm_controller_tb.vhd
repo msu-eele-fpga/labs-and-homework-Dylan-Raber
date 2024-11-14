@@ -7,7 +7,7 @@ end entity pwm_controller_tb;
 
 architecture testbench of pwm_controller_tb is
 
-constant CLK_PERIOD : time :=  20 us;
+constant CLK_PERIOD : time :=  20 ns;
 constant W_PERIOD	: integer := 12;
 constant F_PERIOD	: integer := 6;
 constant W_DUTY_CYCLE	: integer := 10;
@@ -16,7 +16,7 @@ constant F_DUTY_CYCLE	: integer := 9;
 component pwm_controller is
   generic (
     -- CLK_PERIOD_NS = period in ns (ex: CLK_PERIOD_NS = 1000000 -> CLK_PERIOD = 1 ms)
-    CLK_PERIOD_NS 	: integer := 20000; -- in ns
+    CLK_PERIOD_NS 	: integer := 20; -- in ns
     W_PERIOD		: integer := 12;
     F_PERIOD		: integer := 6;
     W_DUTY_CYCLE	: integer := 10;
@@ -65,7 +65,7 @@ begin
   begin
 
     rst_tb	<= '1';
-    wait for (50 * CLK_PERIOD)*2;
+    wait for (50000 * CLK_PERIOD)*2;
 
     rst_tb	<= '0';
 
@@ -73,37 +73,37 @@ begin
     period_tb <= "000001000000";
     -- 50% duty cycle
     duty_cycle_tb <= "0100000000";
-    wait for (50 * CLK_PERIOD)*100;
+    wait for (50000 * CLK_PERIOD)*100;
 
     -- period of 1 ms
     period_tb <= "000001000000";
     -- ~100% duty cycle
     duty_cycle_tb <= "0111111111";
-    wait for (50 * CLK_PERIOD)*100;
+    wait for (50000 * CLK_PERIOD)*100;
 
     -- period of 25 ms
     period_tb <= "011001000000";
     -- ~10% duty cycle
     duty_cycle_tb <= "0000110100";
-    wait for (50 * CLK_PERIOD)*250;
+    wait for (50000 * CLK_PERIOD)*250;
 
     -- period of 25 ms
     period_tb <= "011001000000";
     -- 50% duty cycle
     duty_cycle_tb <= "0100000000";
-    wait for (50 * CLK_PERIOD)*250;
+    wait for (50000 * CLK_PERIOD)*250;
 
     -- period of 32 ms
     period_tb <= "100000000000";
     -- ~10% duty cycle
     duty_cycle_tb <= "0000110100";
-    wait for (50 * CLK_PERIOD)*250;
+    wait for (50000 * CLK_PERIOD)*250;
 
     -- period of 32 ms
     period_tb <= "100000000000";
     -- 50% duty cycle
     duty_cycle_tb <= "0100000000";
-    wait for (50 * CLK_PERIOD)*250;
+    wait for (5000 * CLK_PERIOD)*250;
 
     rst_tb <= '1';
     wait;
