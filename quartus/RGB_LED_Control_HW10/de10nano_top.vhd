@@ -282,7 +282,8 @@ begin
   push_button <= not push_button_n(0);
   rst	<= not push_button_n(1);
   led_sig <= led;
-  gpio_RGB_std <= std_logic_vector(gpio_1(2 downto 0));
+  gpio_1(2 downto 0) <= std_ulogic_vector(gpio_RGB_std);
+  gpio_1(5 downto 3) <= "111";
   
 	u0 : component soc_system
     port map (
