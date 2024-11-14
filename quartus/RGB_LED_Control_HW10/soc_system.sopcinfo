@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="soc_system" kind="soc_system" version="1.0" fabric="QSYS">
  <!-- Format version 23.1 993 (Future versions may contain additional information.) -->
- <!-- 2024.11.12.23:04:28 -->
+ <!-- 2024.11.14.13:40:00 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1731477867</value>
+  <value>1731616799</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -16006,7 +16006,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>rgb_controller</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>rgb_controller.avalon_slave_0</name>
-    <baseAddress>0</baseAddress>
+    <baseAddress>503040</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -16014,7 +16014,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>led_patterns_avalon_1</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>led_patterns_avalon_1.avalon_slave_0</name>
-    <baseAddress>16</baseAddress>
+    <baseAddress>0</baseAddress>
     <span>16</span>
    </memoryBlock>
   </interface>
@@ -41844,7 +41844,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>rgb_controller</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>rgb_controller.avalon_slave_0</name>
-    <baseAddress>0</baseAddress>
+    <baseAddress>503040</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -41852,7 +41852,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>led_patterns_avalon_1</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>led_patterns_avalon_1.avalon_slave_0</name>
-    <baseAddress>16</baseAddress>
+    <baseAddress>0</baseAddress>
     <span>16</span>
    </memoryBlock>
   </interface>
@@ -42967,7 +42967,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>rgb_controller</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>rgb_controller.avalon_slave_0</name>
-    <baseAddress>4280287232</baseAddress>
+    <baseAddress>4280790272</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -42975,7 +42975,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>led_patterns_avalon_1</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>led_patterns_avalon_1.avalon_slave_0</name>
-    <baseAddress>4280287248</baseAddress>
+    <baseAddress>4280287232</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -43794,7 +43794,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>rgb_controller</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>rgb_controller.avalon_slave_0</name>
-    <baseAddress>4280287232</baseAddress>
+    <baseAddress>4280790272</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -43802,7 +43802,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>led_patterns_avalon_1</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>led_patterns_avalon_1.avalon_slave_0</name>
-    <baseAddress>4280287248</baseAddress>
+    <baseAddress>4280287232</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -71878,7 +71878,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>rgb_controller</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>rgb_controller.avalon_slave_0</name>
-    <baseAddress>0</baseAddress>
+    <baseAddress>503040</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -71886,7 +71886,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>led_patterns_avalon_1</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>led_patterns_avalon_1.avalon_slave_0</name>
-    <baseAddress>16</baseAddress>
+    <baseAddress>0</baseAddress>
     <span>16</span>
    </memoryBlock>
   </interface>
@@ -81012,7 +81012,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0000</value>
+   <value>0x0007ad00</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -81063,7 +81063,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0010</value>
+   <value>0x0000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -81114,7 +81114,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0000</value>
+   <value>0x0007ad00</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -81165,7 +81165,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0010</value>
+   <value>0x0000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

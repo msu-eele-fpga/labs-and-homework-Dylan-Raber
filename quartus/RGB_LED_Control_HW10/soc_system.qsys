@@ -50,7 +50,7 @@
    {
       datum baseAddress
       {
-         value = "16";
+         value = "0";
          type = "String";
       }
    }
@@ -66,7 +66,7 @@
    {
       datum baseAddress
       {
-         value = "0";
+         value = "503040";
          type = "String";
       }
    }
@@ -948,7 +948,7 @@
    start="hps.h2f_lw_axi_master"
    end="rgb_controller.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="baseAddress" value="0x0007ad00" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -957,7 +957,7 @@
    start="hps.h2f_lw_axi_master"
    end="led_patterns_avalon_1.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0010" />
+  <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -966,7 +966,7 @@
    start="jtag_mm1.master"
    end="rgb_controller.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="baseAddress" value="0x0007ad00" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -975,7 +975,7 @@
    start="jtag_mm1.master"
    end="led_patterns_avalon_1.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0010" />
+  <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="23.1" start="fpga_clk.clk" end="jtag_mm1.clk" />
