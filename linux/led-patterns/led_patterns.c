@@ -55,7 +55,7 @@ static ssize_t led_patterns_read(struct file *file, char __user *buf,
     * led_patterns_dev struct that contains the miscdev in private_data.
     */
     struct led_patterns_dev *priv = container_of(file->private_data,
-    struct led_patterns_dev, miscdev);
+                                    struct led_patterns_dev, miscdev);
 
     // Check file offset to make sure we are reading from a valid location.
     if (*offset < 0) {
@@ -205,7 +205,7 @@ static int led_patterns_probe(struct platform_device *pdev)
 
     // Enable software-control mode and turn all the LEDs on, just for fun.
     iowrite32(1, priv->hps_led_control);
-    iowrite32(0xff, priv->led_reg);
+    iowrite32(0xf0, priv->led_reg);
 
     // Initialize the misc device parameters
     priv->miscdev.minor = MISC_DYNAMIC_MINOR;
@@ -259,8 +259,8 @@ static int led_patterns_remove(struct platform_device *pdev)
 42 * compatible string as defined here.
 43 */
 static const struct of_device_id led_patterns_of_match[] = {
-{ .compatible = "Raber,led_patterns", },
-{ }
+    { .compatible = "Raber,led_patterns", },
+    { }
 };
 MODULE_DEVICE_TABLE(of, led_patterns_of_match);
 
@@ -277,10 +277,10 @@ static struct platform_driver led_patterns_driver = {
     .probe = led_patterns_probe,
     .remove = led_patterns_remove,
     .driver = {
-    .owner = THIS_MODULE,
-    .name = "led_patterns",
-    .of_match_table = led_patterns_of_match,
-},
+        .owner = THIS_MODULE,
+        .name = "led_patterns",
+        .of_match_table = led_patterns_of_match,
+    },
 };
 
 /*
