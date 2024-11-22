@@ -1,5 +1,8 @@
 #include "socfpga_cyclone5_de10nano.dtsi"
 
 /{
-    
+    led_patterns: led_patterns@ff200000 {
+        compatible = "Raber,led_patterns";
+        reg = <0x0ff200000 16>;
+    };
 };
