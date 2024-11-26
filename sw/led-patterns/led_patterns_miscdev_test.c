@@ -4,11 +4,19 @@
 #include <errno.h>
 #include <string.h>
 #include <unistd.h>
+#include <signal.h>
 
 // TODO: update these offsets if your address are different
 #define HPS_LED_CONTROL_OFFSET 0x0
 #define BASE_PERIOD_OFFSET 0x4
 #define LED_REG_OFFSET 0x08
+
+static volatile int keepRunning = 1;
+
+
+void intHandler(int dummy) {
+    keepRunning = 0;
+}
 
 int main () {
 	FILE *file;
@@ -52,54 +60,54 @@ int main () {
 	fflush(file);
 
 	// Write some values to the LEDs
-	printf("writing patterns to LEDs....\n");
-	val = 0x55;
-    ret = fseek(file, LED_REG_OFFSET, SEEK_SET);
+	printf("writing custom pattern to LEDs....\n");
+
+    val = 0xF0;
+    ret = fseek(file, BASE_PERIOD_OFFSET, SEEK_SET);
 	ret = fwrite(&val, 4, 1, file);
 	fflush(file);
+    
+    signal(SIGINT, intHandler);
 
-	sleep(1);
+    while(keepRunning) {
 
-	val = 0xaa;
-    ret = fseek(file, LED_REG_OFFSET, SEEK_SET);
-	ret = fwrite(&val, 4, 1, file);
-	fflush(file);
+        val = 0x2A;
+        ret = fseek(file, LED_REG_OFFSET, SEEK_SET);
+        ret = fwrite(&val, 4, 1, file);
+        fflush(file); 
 
-	sleep(1);
+        usleep(75*1000);
 
-	val = 0xff;
-    ret = fseek(file, LED_REG_OFFSET, SEEK_SET);
-	ret = fwrite(&val, 4, 1, file);
-	fflush(file);
+        val = 0x55;
+        ret = fseek(file, LED_REG_OFFSET, SEEK_SET);
+        ret = fwrite(&val, 4, 1, file);
+        fflush(file); 
 
-	usleep(0.5e6);
+        usleep(75*1000);
 
-	val = 0x00;
-    ret = fseek(file, LED_REG_OFFSET, SEEK_SET);
-	ret = fwrite(&val, 4, 1, file);
-	fflush(file);
+    }
 
 	sleep(1);
 
 	// Turn on hardware-control mode
-	printf("back to hardware-control mode....\n");
+	printf("\nback to hardware-control mode....\n");
 	val = 0x00;
     ret = fseek(file, HPS_LED_CONTROL_OFFSET, SEEK_SET);
 	ret = fwrite(&val, 4, 1, file);
 	fflush(file);
 
-	val = 0x12;
+	val = 0x07;
     ret = fseek(file, BASE_PERIOD_OFFSET, SEEK_SET);
 	ret = fwrite(&val, 4, 1, file);
 	fflush(file);
 
-	sleep(5);
+	sleep(3);
 
 	// Speed up the base period!
-	val = 0x02;
-    ret = fseek(file, BASE_PERIOD_OFFSET, SEEK_SET);
-	ret = fwrite(&val, 4, 1, file);
-	fflush(file);
+	//val = 0x02;
+    //ret = fseek(file, BASE_PERIOD_OFFSET, SEEK_SET);
+	//ret = fwrite(&val, 4, 1, file);
+	//fflush(file);
 
 
 	printf("\n************************************\n*");
