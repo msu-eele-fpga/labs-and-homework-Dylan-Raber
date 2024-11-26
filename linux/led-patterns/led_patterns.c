@@ -455,7 +455,10 @@ static struct platform_driver led_patterns_driver = {
         .owner = THIS_MODULE,
         .name = "led_patterns",
         .of_match_table = led_patterns_of_match,
+<<<<<<< HEAD
         .dev_groups = led_patterns_groups,
+=======
+>>>>>>> 4b1fc4fddf5d6b0b2ed1d7433a60864249d0bda3
     },
 };
 
